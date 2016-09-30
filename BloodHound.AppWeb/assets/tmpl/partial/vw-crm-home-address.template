@@ -1,0 +1,59 @@
+<div>
+    <div class="widget">
+        <div class="widget-header">
+            <h3><i class="fa fa-building"></i> Address Details</h3>
+        </div>
+        <div class="widget-content">
+            <div class="basic-info">
+                <p class="data-row">
+                    <span class="data-name">Address 1</span>
+                    <span id="crm-address-1" class="data-value"><%= item.Street1 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Address 2</span>
+                    <span id="crm-address-2" class="data-value"><%= item.Street2 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Address 3</span>
+                    <span id="crm-address-3" class="data-value"><%= item.Street3 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">City</span>
+                    <span id="crm-city" class="data-value"><%= item.City %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">County</span>
+                    <span id="crm-state-prov" class="data-value"><%= item.CountryRegion %></span>
+                </p>
+              <p class="data-row">
+                <span class="data-name">Postcode</span>
+                <span id="crm-postcode" class="data-value">
+                  <%= item.PostCode %>
+                </span>
+              </p>
+                <p class="data-row">
+                    <span class="data-name">Country</span>
+                    <span id="crm-country" class="data-value"><%= item.Country %></span>
+                </p>
+                
+
+              <p class="data-row">
+                <span class="data-name">Business Phone</span>
+                <span id="crm-postcode" class="data-value">
+                  <%= item.BusinessPhone %>
+                </span>
+              </p>
+              <p class="data-row">
+                <span class="data-name">Email</span>
+                <span id="crm-account-email" class="data-value">
+                  <%= item.Email %>
+                </span>
+              </p>
+                <hr class="dashed">
+                <p class="data-row">
+                <a target="_blank" href="" id="crm-map-link" class="btn btn-primary primary"><i class="fa fa-map-marker"></i>View On Map</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,1 @@
+<tr><td><a href="#/crm-contacts/<%= item.ParentCustomerId %>/<%= item.ContactId %>"><%= item.FirstName %> <%= item.LastName %></a></td><td><%= item.BusinessPhone %></td><td><%= item.Mobile %></td></tr>

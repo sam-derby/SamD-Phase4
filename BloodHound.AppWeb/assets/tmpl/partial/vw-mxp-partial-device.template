@@ -1,0 +1,417 @@
+<div>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="col-md-12" id="crm-status-notification">
+
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="knowledge">
+          <h3>
+            <i class="fa fa-cogs"></i> Device
+          </h3>
+          <ul class="list-unstyled">
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Serial Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-serial-no">
+                    <%= item.SerialNumber %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Item</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-item">
+                    <%= item.Item %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Item Description</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-item-desc1">
+                    <%= item.ItemDescription1 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Item Description Cont.</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-item-desc2">
+                    <%= item.ItemDescription2 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>System Ref.</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-sys-ref">
+                    <a id="device-sys-ref-link" style="padding-left:0px;color:#337ab7" href="#">
+                      <%= item.SystemRef %>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Sales Order</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-sales-order">
+                    <%= item.SalesOrder %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Serial Status</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-serial-status">
+                    <%= item.SerialStatus %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Serial Status Description</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-serial-status-desc">
+                    <%= item.SerialStatusDescription %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Service Provider</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-service-prov">
+                    <%= item.ServiceProvider %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Aggreement Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-lease-id">
+                    <%= item.LeaseRef %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Owner</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-owner">
+                    <%= item.Owner %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Contract Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-contract-number">
+                    <%= item.ContractNumber %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Line Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-line-number">
+                    <%= item.LineNumber %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Opportunity Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-opp-number">
+                    <a style="padding-left:0px !important; color:#337ab7;" id="crm-dev-opp-no" href="#"
+                      <%= item.OppNumber %>"><%= item.OppNumber %>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Customer Name</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-line-number">
+                    <%= item.MxpCustomerName %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Customer Number</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-cust-number">
+                    <a style="padding-left:0px !important; color:#337ab7;" id="mxp-dev-cust-no" href="#/mxp-home/"
+                      <%= item.MxpCustomerNumber %>"><%= item.MxpCustomerNumber %>
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="knowledge">
+          <h3>
+            <i class="fa fa-calendar"></i> Key Dates
+          </h3>
+          <ul class="list-unstyled">
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Install Date</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-install-date">
+                    <%= item.InstallDate %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Last Service Date</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-install-date">
+                    <%= item.LastServiceDate %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Last Meter Reading Date</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-last-meter-date">
+                    <%= item.LastMeterReadingDate %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Next Meter Reading Date</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-next-meter-date">
+                    <%= item.NextMeterReadingDueDate %>
+                  </span>
+                  <div class="label label-success">
+                    <%= item.DaysUntilNextReadingDate %> Days
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="knowledge" style="margin-top: 80px">
+          <h3>
+            <i class="fa fa-building"></i> Address
+          </h3>
+          <ul class="list-unstyled">
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Primary Contact</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-prim-contact">
+                    <%= item.PrimaryContact %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Address 1</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-address1">
+                    <%= item.Address1 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Address 2</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-address2">
+                    <%= item.Address2 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Address 3</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-address3">
+                    <%= item.Address3 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Address 4</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-address4">
+                    <%= item.Address4 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>City</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-city">
+                    <%= item.City %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Country</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-country">
+                    <%= item.Country %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Postcode</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-postcode">
+                    <%= item.PostCode %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Location 1</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-location1">
+                    <%= item.Location1 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Location 2</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="mxp-device-location2">
+                    <%= item.Location2 %>
+                  </span>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                  <strong>Telephone</strong>
+                </div>
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                  <span id="crm-device-postcode">
+                    <%= item.Telephone %>
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

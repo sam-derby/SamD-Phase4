@@ -1,0 +1,43 @@
+.load(function () {
+        setTimeout(function () {
+            $('.loading-container')
+                .addClass('loading-inactive');
+        }, 1000);
+    });
+
+
+
+public JsonResult CustomerList(string Id)
+{
+    NorthwindEntities db = new NorthwindEntities();
+    var result = from r in db.Customers
+                    where r.Country == Id
+                    select new { r.ContactName, r.Address };
+    return Json(result, JsonRequestBehavior.AllowGet);
+}
+
+Above method will accept Id as parameter and will return ‘JsonResult’. This action method can be called using the following jQuery Ajax GET call.
+
+
+<p id="rData">
+</p>
+
+<p>
+    Enter country name @Html.TextBox("Country")
+    <input type="submit" id="GetCustomers" value="Submit"/>
+</p>
+
+<script type="text/jscript">
+    $('#GetCustomers').click(function () {
+        $.getJSON('/Home/CustomerList/' + $('#Country').val(), function (data) {
+
+            var items = '<table><tr><th>Name</th><th>Address</th></tr>';
+            $.each(data, function (i, country) {
+                items += "<tr><td>" + country.ContactName + "</td><td>" + country.Address + "</td></tr>";
+            });
+            items += "</table>";
+
+            $('#rData').html(items);
+        });
+    })
+</script>

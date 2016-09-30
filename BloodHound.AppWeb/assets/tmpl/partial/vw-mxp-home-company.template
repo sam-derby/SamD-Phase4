@@ -1,0 +1,69 @@
+<div>
+    <div class="widget">
+        <div class="widget-header">
+            <h3><i class="fa fa-info"></i> Company Info</h3>
+        </div>
+        <div class="widget-content">
+            <div class="basic-info">
+
+                <p class="data-row">
+                    <span class="data-name">Customer Number</span>
+                    <span id="mxp-cust-no" class="data-value"><%= item.CustomerNumber %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Name</span>
+                    <span id="mxp-cust-name" class="data-value"><%= item.CustomerName %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Legal Name</span>
+                    <span id="mxp-legal-name" class="data-value"><%= item.LegalName %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Trading As</span>
+                    <span id="mxp-trading-as" class="data-value"><%= item.TradingAs %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Chrg (Yes/No)</span>
+                    <span id="mxp-charge" class="data-value"><%= item.Charge %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Charge Customer Number</span>
+                    <span id="mxp-charge-cust-no" class="data-value"><%= item.ChargeCustomerNumber %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Parent Customer</span>
+                    <span id="mxp-parent-cust" class="data-value"><%= item.ParentCustomer %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Country Code</span>
+                    <span id="mxp-country-code" class="data-value"><%= item.CountryCode %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Currency Code</span>
+                    <span id="mxp-currency-code" class="data-value"><%= item.CurrencyCode %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">VAT Registration Number</span>
+                    <span id="mxp-vat-reg" class="data-value"><%= item.VatReg %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Company Registration Number</span>
+                    <span id="mxp-company-reg" class="data-value"><%= item.CompanyReg %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Invoice Send Method</span>
+                    <span id="mxp-invoice-send-method" class="data-value"><%= item.ExtprSendMethod %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Sector</span>
+                    <span id="mxp-seg-code" class="data-value"><%= item.Sector %></span>
+                </p>
+             <p class="data-row">
+                    <span class="data-name">Machine Count</span>
+                    <span id="mxp-machine-count" class="data-value">
+                      <a href="#/mxp-devices/<%= item.CustomerNumber %>"><%= item.MachineCount %></a></span>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

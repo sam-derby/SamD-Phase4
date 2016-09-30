@@ -1,0 +1,50 @@
+<div>
+  <div class="content-page" id="mxp-service-calls-page">
+    <div class="row">
+      <div id="crm-contacts-widget" class="col-md-12 col-sm-12 col-xs-12">
+        <div class="widget">
+          <div class="widget-header">
+            <h3>
+              <i class="fa fa-wrench"></i> Service Calls
+            </h3>
+          </div>
+          <div class="widget-content">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div id="service-call-date-range" class="pull-right report-range">
+                  <i class="fa fa-calendar"></i>
+                    <span class="range-value"></span>
+                  <b class="caret"></b>
+                </div>
+              </div>
+            </div>
+            <div class="row" style ="margin-top:10px;">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <table class="table table-sorting table-hover table-bordered datatable" id="mxp-service-calls-table">
+                  <thead>
+                    <tr>
+                      <th>Service Number</th>
+                      <th>Entry Date</th>
+                      <th class="onlyDesktop">Status</th>
+                      <th class="onlyDesktop">Status Desc.</th>
+                      <th class="onlyDesktop">Item No.</th>
+                      <th class="onlyDesktop">Tech Code</th>
+                      <th class="onlyDesktop">Tech Name</th>
+                      <th class="onlyDesktop">Cust No.</th>
+                      <th>Charge Cust.</th>
+                      <th>Contract No.</th>
+                      <th class="onlyDesktop">Contract Line</th>
+                      <th>Service Type</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+<tr id="<%= item.ContactId %>" data-emailAddress="<%= item.EmailAddress %>" data-name="<%= item.FirstName %> <%= item.LastName %>" data-phone="<%= item.BusinessPhone %>" data-mobile="<%= item.Mobile %>">
+  <td>
+    <%= item.FirstName %>
+  </td>
+  <td>
+    <%= item.LastName %>
+  </td>
+  <td>
+    <%= item.JobTitle %>
+  </td>
+  <td>
+    <%= item.BusinessPhone %>
+  </td>
+  <td>
+    <%= item.Mobile %>
+  </td>
+  <td>
+    <%= item.ParentAccountName %>
+  </td>
+</tr>

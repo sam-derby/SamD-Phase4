@@ -1,0 +1,14 @@
+<tr>
+  <td style="width:25%">
+    <%= item.ProdGroup %>
+  </td>
+  <td style="width:50%">
+    <%= item.Description %>
+  </td>
+  <td style="width:25%">
+    <div class="label <%= item.Label %>">
+      <%= item.Flag %>
+    </div>
+    
+  </td>
+</tr>

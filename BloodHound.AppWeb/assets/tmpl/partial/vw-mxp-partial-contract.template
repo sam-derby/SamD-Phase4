@@ -1,0 +1,221 @@
+<div>
+    <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                 <div class="knowledge">
+                  <h3>
+                    <i class="fa fa-bookmark-o"></i> Contract Line
+                  </h3>
+                  <ul class="list-unstyled">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Contract Number</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ContractNumber %></a>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Line Number</strong>
+                        </div>
+                        <div id="mxp-line-number" class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.LineNumber %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Description</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.Description %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Start Date</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ContractStartDate %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>End Date</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ContractEndDate %>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Customer Number</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <span id="mxp-contract-cust-number">
+                            <a style="padding-left:0px !important; color:#337ab7;" id="mxp-contract-cust-no" href="#/mxp-home/"
+                              <%= item.CustomerNumber %>"><%= item.CustomerNumber %>
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Charge Customer Number</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ChargeCustomerNumber %>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                 <div class="knowledge">
+                  <h3>
+                    <i class="fa fa-bookmark-o"></i> Item
+                  </h3>
+                  <ul class="list-unstyled">
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Lease Reference</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.LeaseRef %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>System Ref</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <span id="crm-device-sys-ref">
+                            <a id="device-sys-ref-link" style="padding-left:0px;color:#337ab7" href="#">
+                              <%= item.SystemRef %>
+                            </a>
+                          </span>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Item Number</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ItemNumber %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Item Description</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.ItemDescription %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Serial Number</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.SerialNumber %>
+                        </div>
+                      </div>
+                    </li>
+                    <!--<li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Part Inclusive End Date</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.PartInclusiveEnd %>
+                        </div>
+                      </div>
+                    </li>-->
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Next CPC Price Increase Date</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.NextPriceIncreaseDate %>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="row">
+                        <div class="col-md-5 col-sm-12 col-xs-12">
+                          <strong>Next CPC Price Increase</strong>
+                        </div>
+                        <div class="col-md-7 col-sm-12 col-xs-12">
+                          <%= item.FormattedMaxIncrease %>
+                        </div>
+                      </div>
+                    </li>
+
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="knowledge">
+                    <h3>
+                      <i class="fa fa-bookmark-o"></i> Chargeable Items
+                    </h3>
+                    <div class="col-md-12" style="margin-bottom:-20px">
+                      <table class="table" style="font-size:13px">
+                        <tbody>
+                          <tr>
+                            <th style="width:25%">Prod Group</th>
+                            <th style="width:50%">Description</th>
+                            <th style="width:25% text-align: left; padding-left: 0px;">Chargeable</th>
+                          </tr>
+                        </tbody>
+                      </table>
+                   </div>
+
+                    <div class="col-md-12" style="max-height:480px; overflow-y:auto;">
+                      <table class="table" id="mxp-contracts-category-table" style="font-size:13px">
+                        <tbody>
+
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

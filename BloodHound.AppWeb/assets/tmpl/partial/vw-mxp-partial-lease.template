@@ -1,0 +1,85 @@
+<div>
+    <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="knowledge">
+              <h3>
+                <i class="fa fa-building"></i> Lease
+              </h3>
+              <ul class="list-unstyled">
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Agreement Number</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.LeaseRef %>
+                      </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Funder</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                          <%= item.Funder %>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Term (Months)</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.Term %>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Started</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.StartedDate %>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Min. End</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.CalculatedEndDate %>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Active Devices</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.Active%>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="row">
+                    <div class="col-md-4 col-sm-12 col-xs-12">
+                      <strong>Status</strong>
+                    </div>
+                    <div class="col-md-8 col-sm-12 col-xs-12">
+                      <%= item.Status %>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>

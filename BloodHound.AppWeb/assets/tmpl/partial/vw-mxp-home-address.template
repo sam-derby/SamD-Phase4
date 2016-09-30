@@ -1,0 +1,39 @@
+<div>
+    <div class="widget">
+        <div class="widget-header">
+            <h3><i class="fa fa-building"></i> Address Details</h3>
+        </div>
+        <div class="widget-content">
+            <div class="basic-info">
+                <p class="data-row">
+                    <span class="data-name">Address 1</span>
+                    <span id="mxp-address-1" class="data-value"><%= item.Address1 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Address 2</span>
+                    <span id="mxp-address-2" class="data-value"><%= item.Address2 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Address 3</span>
+                    <span id="mxp-address-3" class="data-value"><%= item.Address3 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Address 4</span>
+                    <span id="mxp-address-4" class="data-value"><%= item.Address4 %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">City</span>
+                    <span id="mxp-city" class="data-value"><%= item.City %></span>
+                </p>
+                <p class="data-row">
+                    <span class="data-name">Postcode</span>
+                    <span id="mxp-postcode" class="data-value"><%= item.PostCode %></span>
+                </p>
+                <hr class="dashed"/>
+                <p class="data-row">
+                <a target="_blank" href="http://maps.google.co.uk/maps?q=<%= item.PostCode %>" id="mxp-map-link" class="btn btn-primary primary"><i class="fa fa-map-marker"></i>View On Map</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

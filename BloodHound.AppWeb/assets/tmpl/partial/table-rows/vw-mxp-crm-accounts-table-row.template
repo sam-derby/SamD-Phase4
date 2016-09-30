@@ -1,0 +1,26 @@
+<tr id='tr_<%= item.AccountNumber %>'><td>
+    <a href="#/crm-home/<%= item.AccountNumber %>"><%= item.AccountName %></a>
+  </td>
+  <td class="onlyDesktop">
+    <%= item.PostCode %>
+  </td>
+  <td class="onlyDesktop">
+    <%= item.City %>
+  </td>
+  <td >
+    <span style="display: inline-flex;" id='td_<%= item.AccountNumber %>'><%= item.OwnerName %></span>
+  </td>
+  <td>
+    <%= item.ActiveDeviceCount %>
+  </td>
+  <td class="onlyDesktop">
+    <%= item.LastActivityDate %>
+  </td>
+  <td>
+    <%= item.NextActivityDate %>
+  </td>
+  <td class="onlyDesktop">
+    <%= item.MxpCustomerNumber %>
+  </td>
+</tr>
+

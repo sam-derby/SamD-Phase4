@@ -1,0 +1,54 @@
+<div>
+    <div class="content-page" id="crm-contacts-page">
+        <div class="row">
+            <div id="crm-contacts-widget" class="col-md-12 col-sm-12 col-xs-12">
+                <div class="widget">
+                    <div class="widget-header">
+                        <h3><i class="fa fa-user"></i> Contacts</h3>
+                    </div>
+                    <div class="widget-content">
+                        <div class="row">
+                            <div class="col-md-9 col-sm-12 col-xs-12" id="crm-contacts-container">
+                                <table class="table" id="crm-contacts-table">
+                                    <thead>
+                                    <tr>
+                                        <th>First Name</th>
+                                        <th>Last Name</th>
+                                        <th>Job Title</th>
+                                        <th>Telephone</th>
+                                        <th>Mobile</th>
+                                        <th>Company</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
+                            <div class="col-md-3 col-sm-12 col-xs-12">
+                                <div class="user-info-left" id="crm-contact-profile" style="display:none">
+                                    <i style="font-size: 80px" class="fa fa-user fa-5"></i>
+                                    <h2 id="lbl-crm-cust-name"></h2>
+                                    <div class="contact">
+                                        <ul class="list-unstyled">
+                                            <li><h5> <i class="fa fa-mobile" style="font-size: 24px; margin-right: 5px;"></i> <span id="lbl-crm-cust-mobile"></span></h5></li>
+                                            <li><h5> <i class="fa fa-phone" style="font-size: 24px; margin-right: 5px;"></i> <span id="lbl-crm-cust-phone"></span></h5></li>
+                                          <li>
+                                            <h5>
+                                              <i class="fa fa-envelope-o" style="font-size: 24px; margin-right: 5px;"></i>
+                                              <a href="#" id="lbl-crm-cust-email"></a>
+                                            </h5>
+                                          </li>
+                                        </ul>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mxp-contacts-detail" class="col-md-4 col-sm-12 col-xs-12">
+
+            </div>
+        </div>
+    </div>
+</div>

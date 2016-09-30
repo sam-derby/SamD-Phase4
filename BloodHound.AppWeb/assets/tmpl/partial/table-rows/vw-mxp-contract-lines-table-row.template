@@ -1,0 +1,23 @@
+<tr data-contractNumber="<%= item.ContractNumber %>" data-customerNumber="<%= item.CustomerNumber %>" data-lineNumber="<%= item.LineNumber %>">
+  <td>
+    <%= item.ContractNumber %>
+  </td>
+  <td>
+    <%= item.Description %>
+  </td>
+  <td>
+    <%= item.LineNumber %>
+  </td>
+  <td>
+    <%= item.ItemNumber %>
+  </td>
+  <td>
+    <%= item.ItemDescription %>
+  </td>
+   <td>
+    <%= item.CustomerNumber %>
+  </td>
+   <td>
+    <%= item.SerialNumber %>
+  </td>
+</tr>

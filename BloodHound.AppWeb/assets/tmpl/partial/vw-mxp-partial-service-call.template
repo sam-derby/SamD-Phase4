@@ -1,0 +1,278 @@
+<div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="knowledge">
+            <h3>
+              <i class="fa fa-wrench"></i> Details
+            </h3>
+            <ul class="list-unstyled">
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Service Number</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.ServiceNumber %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Entry Date &amp; Time</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.EntryDate %>&nbsp;<%= item.FormattedEntryTime %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Status Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.SoStatus %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Status Desc.</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.SoStatusDescription %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Serial Number</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span id="mxp-device-sys-ref">
+                      <a id="device-sys-ref-link" style="padding-left:0px;color:#337ab7" href="#">
+                        <%= item.SystemRef %>
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Item Number</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                        <%= item.ItemNumber %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Tech Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.TechCode %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Tech Name</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.TechName %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Category Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.CategoryCode %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Category Code Desc.</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.CategoryCodeDescription %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Service Type</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.ServiceType %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="knowledge">
+            <h3>
+              <i class="fa fa-wrench"></i> Service
+            </h3>
+            <ul class="list-unstyled">
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Problem Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.ProblemCode %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Problem Description</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.ProblemCodeDescription %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Cause Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.CauseCode %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Cause Description</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.CauseCodeDescription %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Repair Code</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairCode %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Repair Description</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairCodeDescription %>
+                    </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Request Date &amp; Time</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairRequestDate %>&nbsp;<%= item.FormattedRepairRequestTime %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Dispatch Date &amp; Time</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairDispatchDate %>&nbsp;<%= item.FormattedRepairDispatchTime %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Arrival Date &amp; Time</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairArrivalDate %>&nbsp;<%= item.FormattedRepairArrivalTime %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="row">
+                  <div class="col-md-4 col-sm-12 col-xs-12">
+                    <strong>Completion Date &amp; Time</strong>
+                  </div>
+                  <div class="col-md-8 col-sm-12 col-xs-12">
+                    <span>
+                      <%= item.RepairCompleteDate %>&nbsp;<%= item.FormattedRepairCompleteTime %>
+                      </span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

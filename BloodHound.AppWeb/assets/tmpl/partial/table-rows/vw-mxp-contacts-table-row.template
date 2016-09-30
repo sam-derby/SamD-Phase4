@@ -1,0 +1,13 @@
+<tr id="<%= rowId %>" data-email="<%= item.EmailAddress %>" data-name="<%= item.Name %>" data-phone="<%= item.Telephone %>" data-mobile="<%= item.Mobile %>">
+  <td>
+    <%= item.Name %>
+  </td>
+<td><%= item.Telephone %></td>
+  <td><%= item.Mobile %></td>
+  <td>
+    <%= item.CustomerNumber %>
+    </td>
+  <td>
+    <%= item.ChargeCustomer %>
+    </td>
+</tr>
